@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Time tracking dashboard</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="user-info">
+          <div class="upper">
+            <img class="user-img" src="images/image-jeremy.png" alt="jeremy" />
+            <p class="report-for">report for</p>
+            <p class="name">
+              Jeremy <br />
+              Robson
+            </p>
+          </div>
+          <div class="lower">
+            <span class="time-frame">daily</span>
+            <span class="time-frame">weekly</span>
+            <span class="time-frame">monthly</span>
+          </div>
+        </div>
+        <div class="dashboard">
+          <div class="all" id="work">
+            <div class="out"></div>
+            <div class="in">
+              <span>Work</span>
+              <span class="dot">
+                <img src="images/icon-ellipsis.svg" alt="three-dots" />
+              </span>
+              <p class="current-time">32hrs</p>
+              <p class="other-time">Last Week - 36hrs</p>
+            </div>
+          </div>
+          <div class="all" id="play">
+            <div class="out"></div>
+            <div class="in">
+              <span>Play</span>
+              <span class="dot">
+                <img src="images/icon-ellipsis.svg" alt="three-dots" />
+              </span>
+              <p class="current-time">10hrs</p>
+              <p class="other-time">Last week - 8hrs</p>
+            </div>
+          </div>
+          <div class="all" id="study">
+            <div class="out"></div>
+            <div class="in">
+              <span>Study</span>
+              <span class="dot">
+                <img src="images/icon-ellipsis.svg" alt="three-dots" />
+              </span>
+              <p class="current-time">4hrs</p>
+              <p class="other-time">Last week - 4hrs</p>
+            </div>
+          </div>
+          <div class="all" id="exercise">
+            <div class="out"></div>
+            <div class="in">
+              <span>Exercise</span>
+              <span class="dot">
+                <img src="images/icon-ellipsis.svg" alt="three-dots" />
+              </span>
+              <p class="current-time">4hrs</p>
+              <p class="other-time">Last Week - 5hrs</p>
+            </div>
+          </div>
+          <div class="all" id="social">
+            <div class="out"></div>
+            <div class="in">
+              <span>Social</span>
+              <span class="dot">
+                <img src="images/icon-ellipsis.svg" alt="three-dots" />
+              </span>
+              <p class="current-time">5hrs</p>
+              <p class="other-time">Last Week - 10hrs</p>
+            </div>
+          </div>
+          <div class="all" id="self-care">
+            <div class="out"></div>
+            <div class="in">
+              <span>Self Care</span>
+              <span class="dot">
+                <img src="images/icon-ellipsis.svg" alt="three-dots" />
+              </span>
+              <p class="current-time">32hrs</p>
+              <p class="other-time">Last Week - 36hrs</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://github.com/elabdelaziz">Abdulaziz Omar</a>.
+    </div>
+  </body>
+</html>
